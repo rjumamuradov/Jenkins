@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.546">
+    <testcase classname="US1001_besiktas_team" name="Tc01 besiktas Player Search" time="0.14">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici besiktas sayfasina gider....................................undefined
+And oyuncuismi icin arama yapar.............................................skipped
+Then sonuclarin oyuncuismi icerdigini test eder.............................skipped
+Given kullanici besiktas sayfasina gider....................................skipped
+And Atiba icin arama yapar..................................................skipped
+Then sonuclarin Atiba icerdigini test eder..................................skipped
+Given kullanici besitas sayfasina gider.....................................skipped
+And kartal icin arama yapar.................................................skipped
+Then sonuclarin kartal icerdigini test eder.................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

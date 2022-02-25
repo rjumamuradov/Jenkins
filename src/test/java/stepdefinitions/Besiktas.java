@@ -1,7 +1,10 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import utilities.ConfigReader;
+import utilities.Driver;
 
 public class Besiktas {
     @Given("kullanici besiktas sayfasina gider")
@@ -38,6 +41,16 @@ public class Besiktas {
     }
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
+
+    }
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String istenenURL) {
+        Driver.getDriver().get(ConfigReader.getProperty(istenenURL));
+    }
+
+    @And("{string} icin arama yapar")
+    public void icinAramaYapar(String istenenVeri) {
 
     }
 }
